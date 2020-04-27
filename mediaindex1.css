@@ -1,0 +1,142 @@
+@media only screen
+    and (max-width : 360px){
+        body{
+            background-image: url(indexbck.png);background-repeat: repeat;background-size: 360px 640px ;
+        }
+        #but{
+            grid-area: 2/2/3/3;background-image: url(fill.png);background-size: 118.4px 200px;background-repeat: no-repeat;margin-left: -5px;
+        }
+        .subbut{
+            width:75px;height:130px;margin:27px;
+        }
+         #grid {
+            display: grid;
+            grid-template-rows: 290px 250px;
+            grid-template-columns: 118.5px;
+             height: 580px;width:118.5px; 
+        }
+        
+        #div1 {
+            padding-top: 5px;
+            padding-left: 5px;
+            display: grid;
+            grid-template-rows: 90px 200px;
+            grid-template-columns: 118.5px 118.5px 118.5px;
+            margin: 5px;
+        }
+        .subdiv1{
+            grid-area:1/1/2/4;background-image: url(gamemode.png);background-size: 350px 90px;background-repeat: no-repeat;
+        }
+        
+        .btn {
+            height: 40px;
+            width: 75px;
+        }
+        
+        .anc {
+            text-decoration: none;
+        }
+        .maindiv{
+            height:50px;width:350px;margin:5px;font-size:1px;
+        }
+        .subdiv{
+            width: 350px;height: 50px;background-image: url(countgme.png);background-position: center;background-size: 350px 50px;
+        }
+        #div2{
+            height: 250px;width:350px;margin=5px;
+        }
+        .div2sub{
+            background-image: url(abtgame.png);background-size: 350px 250px;height:250px;width:350px;margin:5px;background-repeat: no-repeat;
+        }
+        #img{
+            background-image: url(imgtwo.png);background-size: 118.5px 200px;grid-area: 2/3/3/4;margin-left: -10px;
+            background-repeat: no-repeat;
+        }
+        .img{
+            grid-area: 2/1/3/2;background-image: url(imgone.png);background-size: 118.5px 200px;margin-left: -3px;background-repeat: no-repeat;
+        }
+        .norm{
+            margin-top:2mm;background-image: url(normbut.png);background-size: 75px 40px;
+        }
+        .hack{
+            background-image: url(hackerbut.png);background-size: 75px 40px;
+        }
+        .plus{
+            background-image: url(hackerplusbut.png);background-size: 75px 40px;
+        }
+        .div3{
+            height: 40px ;width:350px;background-image: url(allthebest.png);background-size: 360px 40px;background-repeat: no-repeat;background-position: center;margin-left: 5px;margin-right: 5px
+        }
+        
+}
+
+@media only screen
+    and (min-width : 361px) {
+        body{
+            background-image: url(indexbck.png);background-repeat: repeat-x;
+        }
+        #but{
+            grid-area: 2/2/3/3;background-image: url(fill.png);background-size: 9cm 9cm;
+        }
+        .subbut{
+            width:6cm;height:7cm;margin:1cm;
+        }
+         #grid {
+            display: grid;
+            grid-template-rows: 16cm;
+            grid-template-columns: 27cm 17cm;
+             height: 18.5cm;width:44cm; margin-left:1cm;margin-right:1cm;margin-top:10mm;
+        }
+        
+        #div1 {
+            padding-top: 1cm;
+            padding-left: 1cm;
+            display: grid;
+            grid-template-rows: 3cm 9cm;
+            grid-template-columns: 8cm 8cm 8cm;
+            height: 13cm;width:25cm;margin-left:1cm;margin-right:5mm;margin-top:1cm;margin-bottom:1cm;
+        }
+        .subdiv1{
+            grid-area:1/1/2/4;background-image: url(gamemode.png);background-size: 24cm 3cm
+        }
+        
+        .btn {
+            height: 2cm;
+            width: 6cm;
+            margin-bottom: 3mm;
+        }
+        
+        .anc {
+            text-decoration: none;
+        }
+        .maindiv{
+            height:35mm;width:44cm;margin-left:1cm;margin-right:1cm;margin-top:1cm;font-size:3cm;
+        }
+        .subdiv{
+            width: 19.5cm;height: 4.5cm;background-image: url(countgme.png);background-position: center;margin-left: 12cm;
+        }
+        #div2{
+            height: 14cm;width:15cm;margin-left:1cm;margin-right:5mm;margin-top:1cm;margin-bottom:1cm;
+        }
+        .div2sub{
+            background-image: url(abtgame.png);background-size: 13cm 12cm;height:12cm;width:13cm;margin:1cm;
+        }
+        #img{
+            background-image: url(imgtwo.png);background-size: 8cm 9cm;grid-area: 2/3/3/4;background-color:yellowgreen;
+        }
+        .img{
+            grid-area: 2/1/3/2;background-image: url(imgone.png);background-size: 8cm 9cm;
+        }
+        .norm{
+            margin-top:2mm;background-image: url(normbut.png);background-size: 6cm 2cm;
+        }
+        .hack{
+            background-image: url(hackerbut.png);background-size: 6cm 2cm;
+        }
+        .plus{
+            background-image: url(hackerplusbut.png);background-size: 6cm 2cm;
+        }
+        .div3{
+            height: 2cm;width:44cm;background-image: url(allthebest.png);background-size: 12cm 2cm;background-repeat: no-repeat;background-position: center;margin:0mm;
+        }
+}

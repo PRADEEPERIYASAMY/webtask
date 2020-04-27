@@ -1,0 +1,556 @@
+@media only screen
+and (max-width : 360px){
+         body{
+               background-size: 360px 660px;
+             width:360px;
+             background-repeat: repeat;
+         }
+              .prime{
+             height: 30px;
+             width: 30px;
+             margin-left: 4px
+        }
+        .root {
+            width: 8cm;
+            margin: 1px;
+            top: -40px;
+            display: grid;
+            grid-template-rows: 60px 180px 300px 100px;
+            grid-template-columns: 177px 177px;
+        }
+        
+        .but1 {
+            height: 30px;
+            width: 30px;
+            border: ridge;
+            border-width: 2px;
+            font-size: 15px;
+            border-color: red;
+            color: red;
+        }
+    .but1a {
+            height: 30px;
+            width: 30px;
+            border: ridge;
+            border-width: 2px;
+            font-size: 15px;
+            border-color: red;
+            color: red;
+        }
+    
+    
+        
+        .but2 {
+            height: 50px;
+            width: 100px;
+        }
+        .countdown{
+            position: absolute;
+            top:277px;
+            left: 40px;
+            z-index: 2;
+            overflow: hidden;
+            background-color: black;
+            border: double;
+            border-width: 5px;
+            border-color: white;
+            width:272px;
+            height: 218px;
+            margin-left: 5px;
+            margin-right:5px;
+            margin-top:3px;
+            margin-bottom:5px;
+        }
+        .cccc{
+            position: relative;
+            z-index: 0;
+             margin-left: 35px;
+            margin-right:35px;
+            margin-top:30px;
+            margin-bottom:1px;
+            background-color: black;
+            border: double;
+        }
+        .ccc{
+            grid-area: 3/1/4/3;
+            background-image: url(base.png);
+            background-size: 354px 300px;
+            margin:2px;
+        }
+        .countdown1{
+             position: absolute;
+             top:277px;
+            left: 40px;
+            z-index: 3;
+            overflow: hidden;
+            background-color: black;
+            display: none;
+            border: double;
+            border-width: 5px;
+            border-color: white;
+            width:272px;
+            height: 218px;
+            margin-left: 5px;
+            margin-right:5px;
+            margin-top:3px;
+            margin-bottom:5px;
+            
+        }
+        .scores{
+            width: 150px;
+            position: relative;
+            font-size: 16px;
+            padding: 2px;
+            padding-left:10px;
+            padding-top: 2px;
+            text-align: center;
+            color: red;
+            
+        }
+        .restart{
+            background-image: url(restartbut.png);
+            background-size: 95px 49px;
+        }
+        .play{
+            background-image: url(playbut.png);
+            background-size: 95px 49px;
+        }
+        .stop{
+            background-image: url(stopbut.png);
+            background-size: 95px 49px;
+        }
+        .butdiv{
+            width:40;
+            margin-top:15px;
+            margin-bottom:10px;
+            margin-left:15px;
+        }
+        .div1{
+            grid-area: 1/1/2/3;
+            background-image: url(iamsmall.png);
+            background-size: 340px 50px; 
+            background-repeat: no-repeat;
+            margin-top: 10px;
+            margin-left: 3px;
+        }
+        .div2{
+            grid-area: 2/1/3/2;
+            margin:2mm;
+            border-radius:5mm;
+        }
+        .div3{
+             grid-area: 2/2/3/3;
+            margin:2mm;
+            border-radius:5mm;
+        }
+        .div4{
+            
+             grid-area: 4/1/5/3;
+            background-image: url(bigbox.png);
+            background-size: 338px 73px;
+            background-repeat: no-repeat;
+            margin:2mm ;
+            background-position: center;
+        }
+        .tab{
+            border-spacing: 1px ;
+        }
+        .boardtext{
+            text-align:center;
+            background-image: url(best.png);
+            font-size: 1px;
+            height: 40px;
+            width: 160px;
+            background-size: 160px 40px;
+        }
+        .boardcount{
+            height:120px;
+            width:160px;
+            background-image: url(box.png);
+            background-size: 160px 120px;
+        }
+        .timetext{
+             text-align:center;
+            background-image: url(time.png);
+            font-size: 1px;
+            height: 40px;
+            width: 160px;
+            background-size: 160px 40px;
+        }
+        .timecount{
+            border: 0.1px solid;
+            height:120px;
+            width:160px;
+            background-image: url(box.png);
+            background-size: 160px 120px;
+        }
+        .timer{
+             font-size: 1cm;
+            text-align:center;
+            color: green;
+        }
+        .your{
+            font-size: 30px;margin-top: 50px;text-align: center;color: aqua;
+        }
+        .yourtext{
+            font-size: 25px;margin-top: 5px;text-align: center;color: aqua;
+        }
+        .canvas{
+            font-size: 160px;margin: 10px;text-align: center;color: aliceblue;
+        }
+         .mk{
+           display: flex;
+           position: relative;
+           overflow: hidden;
+             margin: 0px;
+             padding: 0px;
+             
+           
+       }
+       .mk-1{
+           display: flex;
+           flex-shrink: 0;
+           padding: 0px;
+           margin: 0px;
+           animation-name: scroll;
+           animation-duration: 8s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+           height: 27px;
+       }
+       .mk-2{
+           display: flex;
+           flex-shrink: 0;
+           padding: 0px;
+           margin: 0px;
+           animation-name: scroll;
+           animation-duration: 6s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+           animation-direction: reverse;
+           height: 27px;
+       }
+        .mk-3{
+           display: flex;
+           flex-shrink: 0;
+            padding: 0px;
+           margin: 0px;
+           animation-name: scroll;
+           animation-duration: 4s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+           height: 27px;
+       }
+        .mk-4{
+           display: flex;
+           flex-shrink: 0;
+            padding: 0px;
+           margin: 0px;
+           animation-name: scroll;
+           animation-duration: 4s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+           animation-direction: reverse;
+           height: 27px;
+       }
+        .mk-5{
+           display: flex;
+           flex-shrink: 0;
+            padding: 0px;
+           margin: 0px;
+           animation-name: scroll;
+           animation-duration: 6s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+           height: 27px;
+       }
+        .mk-6{
+           display: flex;
+           flex-shrink: 0;
+            padding: 0px;
+           margin: 0px;
+           animation-name: scroll;
+           animation-duration: 8s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+           animation-direction: reverse;
+           height: 27px;
+       }
+       @keyframes scroll{
+           0%{
+               transform: translateX(0%);
+           }
+           100%{
+               transform: translateX(-800%)
+           }
+       }
+}
+
+ 
+
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 361px) {
+       body{
+             background-repeat: repeat-x;
+         }
+             .prime{
+               height: 17mm;
+             width:  17mm;
+            padding-left: 5px;
+        }
+        .root {
+            height: 23cm;
+            width: 44cm;
+            margin: 1cm;
+            display: grid;
+            grid-template-rows: 5cm 14cm 4cm;
+            grid-template-columns: 8cm 27cm 8cm;
+        }
+        
+        .but1 {
+            height: 17mm;
+            width: 17mm;
+            border: ridge;
+            border-color: red;
+            border-width: 8px;
+            color: red;
+            font-size: 0.5cm;
+        }
+    .but1a {
+            height: 17mm;
+            width: 17mm;
+            border: ridge;
+            border-color: red;
+            border-width: 8px;
+            color: red;
+            font-size: 0.5cm;
+        }
+        
+        .but2 {
+            height: 2cm;
+            width: 5cm;
+        }
+        .countdown{
+            position: absolute;
+            top:6.2cm;
+            left: 9.4cm;
+            z-index: 2;
+            overflow: hidden;
+            background-color: black;
+            border: double;
+            border-width: 5px;
+            border-color: white;
+            width:134.5mm;height: 112mm;margin-left: 65mm;margin-right:65mm;margin-top:9.5mm;margin-bottom:12.5mm;
+        }
+        .cccc{
+            z-index: 0;
+             margin-left: 65mm;
+            margin-right:65mm;
+            margin-top:9.5mm;
+            margin-bottom:12.5mm;
+            background-color: black;
+            border: double;
+        }
+        .ccc{
+            grid-area: 2/2/3/3;
+            background-image: url(base.png);
+            background-size: 26.5cm 13.5cm;
+            margin:2mm;
+        }
+        .countdown1{
+             position: absolute;
+            top:6.2cm;
+            left: 9.4cm;
+            z-index: 3;
+            overflow: hidden;
+            background-color: black;
+            display: none;
+            border: double;
+            border-width: 5px;
+            border-color: white;
+           width:134.5mm;height: 112mm;margin-left: 65mm;margin-right:65mm;margin-top:9.5mm;margin-bottom:12.5mm;
+            
+        }
+        .scores{
+            width: 7cm;
+            position: relative;
+            font-size: 0.9cm;
+            padding: 2px;
+            padding-left:10px;
+            text-align: center;
+            color: red;
+            
+        }
+        .restart{
+            background-image: url(restartbut.png);
+            background-size: 5cm 2cm;
+        }
+        .play{
+            background-image: url(playbut.png);
+            background-size: 5cm 2cm;
+        }
+        .stop{
+            background-image: url(stopbut.png);
+            background-size: 5cm 2cm;
+        }
+        .butdiv{
+            width:15.24cm;
+            margin-top:7mm;
+            margin-bottom:7mm;
+            margin-left:5.6cm;
+        }
+        .div1{
+            grid-area: 1/1/2/4;
+            background-image: url(iamsmall.png);
+            background-size: 43cm 4.5cm;
+            margin:2mm; 
+        }
+        .div2{
+            grid-area: 2/1/4/2;
+            margin:2mm;
+            border-radius:5mm;
+        }
+        .div3{
+             grid-area: 2/3/4/4;
+            margin:2mm;
+            border-radius:5mm;
+        }
+        .div4{
+             grid-area: 3/2/4/3;
+            background-image: url(bigbox.png);
+            background-size: 26.5cm 3.5cm;
+            margin:2mm ;
+        }
+        .tab{
+            border-spacing: 1.25mm ;
+        }
+        .boardtext{
+            text-align:center;
+            background-image: url(best.png);
+            font-size: 1px;
+            height: 3cm;
+            background-size: 7.6cm 3cm;
+        }
+        .boardcount{
+             height:6cm;
+            width:7.6cm;
+            background-image: url(box.png);
+            background-size: 7.6cm 6cm;
+        }
+        .timetext{
+             text-align:center;
+            background-image: url(time.png);
+            height: 3cm;
+            font-size: 1px;
+            background-size:7.6cm 3cm;
+        }
+        .timecount{
+            border: 0.1px solid;
+            height:6cm;width:7.6cm;
+            background-image: url(box.png);
+            background-size: 7.6cm 6cm;
+        }
+        .timer{
+             font-size: 2cm;
+            text-align:center;
+            color: green;
+        }
+        .your{
+            font-size: 2cm;margin-top: 2cm;text-align: center;color: aqua;
+        }
+        .yourtext{
+            font-size: 1cm;margin-top: 2cm;text-align: center;color: aqua;
+        }
+        .canvas{
+            font-size: 6cm;margin: 2cm;text-align: center;color: aliceblue;
+        }
+         .mk{
+           display: flex;
+           position: relative;
+           overflow: hidden;
+             margin: 0px;
+             padding: 0px;
+             
+           
+       }
+       .mk-1{
+           display: flex;
+           flex-shrink: 0;
+           padding: 0px;
+           margin: 0px;
+           animation-name: scroll;
+           animation-duration: 8s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+           height: 16mm;;
+       }
+       .mk-2{
+           display: flex;
+           flex-shrink: 0;
+           padding: 0px;
+           margin: 0px;
+           animation-name: scroll;
+           animation-duration: 6s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+           animation-direction: reverse;
+           height: 16mm;
+       }
+        .mk-3{
+           display: flex;
+           flex-shrink: 0;
+            padding: 0px;
+           margin: 0px;
+           animation-name: scroll;
+           animation-duration: 4s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+           height: 16mm;
+       }
+        .mk-4{
+           display: flex;
+           flex-shrink: 0;
+            padding: 0px;
+           margin: 0px;
+           animation-name: scroll;
+           animation-duration: 4s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+           animation-direction: reverse;
+           height: 16mm;
+       }
+        .mk-5{
+           display: flex;
+           flex-shrink: 0;
+            padding: 0px;
+           margin: 0px;
+           animation-name: scroll;
+           animation-duration: 6s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+           height: 16mm;
+       }
+        .mk-6{
+           display: flex;
+           flex-shrink: 0;
+            padding: 0px;
+           margin: 0px;
+           animation-name: scroll;
+           animation-duration: 8s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+           animation-direction: reverse;
+           height: 16.5mm;
+       }
+       @keyframes scroll{
+           0%{
+               transform: translateX(0%);
+           }
+           100%{
+               transform: translateX(-800%)
+           }
+       }
+}
+ 

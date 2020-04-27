@@ -1,0 +1,19 @@
+@media only screen
+    and (max-width : 360px){
+        button{
+            width: 150px;height: 100px;background-image: url(frontbut.png);background-size: 150px 100px;
+            margin-top: 400px;margin-left: 90px;margin-right: 90px;margin-bottom: 128px;
+        }
+        body{
+            background-image:url(front.png);background-repeat: no-repeat;background-color: black;background-size: 360px ;
+        }
+}
+@media only screen
+    and (min-width : 361px) {
+        button{
+            width: 11.2cm;height: 6cm;margin-top:9cm;margin-left: 30cm;margin-right: 4.7cm;margin-bottom: 9.9cm;background-image: url(frontbut.png);background-size: 11.2cm;
+        }
+        body{
+            background-image:url(front.png);background-repeat: no-repeat;background-color: black;
+        }
+}
